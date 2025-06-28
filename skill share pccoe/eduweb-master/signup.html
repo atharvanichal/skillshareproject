@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header" data-header>
+    <div class="container">
+      <a href="index.html" class="logo">
+        <img src="./assets/images/logo.svg" width="162" height="50" alt="skillshare">
+      </a>
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+          <li class="navbar-item"><a href="index.html" class="navbar-link">Home</a></li>
+          <li class="navbar-item"><a href="#about" class="navbar-link">About</a></li>
+          <li class="navbar-item"><a href="#courses" class="navbar-link">Courses</a></li>
+          <li class="navbar-item"><a href="#blog" class="navbar-link">Blog</a></li>
+          <li class="navbar-item"><a href="signup.html" class="navbar-link">Sign Up</a></li>
+          <li class="navbar-item"><a href="login.html" class="navbar-link">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Sign Up Form -->
+  <div class="form-container">
+    <h2>Sign Up</h2>
+    <form action="dash.html" method="POST">
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email" required>
+      <input type="password" placeholder="Password" required>
+      <button type="submit">Sign Up</button>
+      <p>Already have an account? <a href="login.html">Login</a></p>
+    </form>
+  </div>
+</body>
+</html>
